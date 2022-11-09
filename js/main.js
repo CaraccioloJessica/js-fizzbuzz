@@ -6,23 +6,23 @@ const contenitore = document.querySelector(".container");
 // STAMPARE NUMERI DA 1 A 100
 for (let i = 1; i <= 100; i++) {
 
+  // VARIABILI INTERNE AL CICLO
+  const element = document.createElement("div");
+  contenitore.append(element);
+  
   //MULTIPLI DI 3 E 5
   if (i % 3 === 0 && i % 5 === 0){
-    console.log("FizzBuzz");
+    element.append("FizzBuzz");
   }
   //MULTIPLI DI 5
   else if (i % 5 === 0){
-    console.log("buzz");
+    element.append("buzz");
   }
   // MULTIPLI DI 3
   else if (i % 3 === 0 ){
-    console.log("fizz");
+    element.append("fizz");
   }
   else{
-    console.log(i);
+    element.append(i);
   }
-
-  const element = document.createElement("div");
-  element.append(i);
-  contenitore.append(element);
 }
