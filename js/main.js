@@ -14,14 +14,18 @@ for (let i = 1; i <= 100; i++) {
   //MULTIPLI DI 3 E 5
   if (i % 3 === 0 && i % 5 === 0){
     element.append("FizzBuzz");
+    element.classList.add("fizzbuzz");
   }
   //MULTIPLI DI 5
   else if (i % 5 === 0){
     element.append("buzz");
+    element.classList.add("buzz");
   }
   // MULTIPLI DI 3
   else if (i % 3 === 0 ){
     element.append("fizz");
+    element.classList.add("fizz");
+
   }
   else{
     element.append(i);

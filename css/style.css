@@ -32,3 +32,15 @@ h1{
   color: #fff4e6;
   background-color: #854442;
 }
+
+.fizz{
+  background-color: #be9b7b;
+}
+
+.buzz{
+  background-color: #a5784e;
+}
+
+.fizzbuzz{
+  background-color: #be7b6a;
+}
