@@ -8,6 +8,7 @@ for (let i = 1; i <= 100; i++) {
 
   // VARIABILI INTERNE AL CICLO
   const element = document.createElement("div");
+  element.classList.add("square");
   contenitore.append(element);
   
   //MULTIPLI DI 3 E 5
